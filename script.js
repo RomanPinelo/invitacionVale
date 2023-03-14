@@ -34,3 +34,20 @@ function calcularTiempoRestante1() {
 
 calcularTiempoRestante1();
 
+// __________________________________________________________________________________________________________________________________
+/* Configuración de la libreria de typed.js */
+/* Primer mensaje en pantalla de PC */
+var typed1 = new Typed('#typedFirstMessage', {
+  stringsElement: '#textStrings1', 
+  typeSpeed: 90,
+  startDelay: 300,
+  backSpeed: 75,
+  smartBackspace: false,
+  shuffle: false,
+  backDelay: 1500,
+  loop: false,
+  loopCount: 1,
+  showCursor: true,
+  cursorChar: '|',
+  contentType: 'html',
+});
