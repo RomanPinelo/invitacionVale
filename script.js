@@ -27,7 +27,7 @@ function calcularTiempoRestante1() {
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("countdownTimer1").innerHTML = "EXPIRED";
+      document.getElementById("cuentaRegresiva").innerHTML = "¡¡¡Llego el día!!!";
     }
   }, 1000);
 }

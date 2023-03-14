@@ -71,18 +71,19 @@ body {
 
 .header .textWraper .cuentaRegresiva {
   background-color: slateblue;/* quitar al final */
+  /* font-family: 'Mulish', sans-serif; */
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.25rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
 
 .header .textWraper .cuentaRegresiva div {
-  /* font-family: 'Mulish', sans-serif; */
-  /* font-family: 'Libre Baskerville', serif; */
-  font-family: 'Fredericka the Great', cursive;
   background-color: gray;/* Quitar al final */
   text-align: center;
-  font-size: 1.255rem;
+  font-size: 1.25rem;
 }
 
 .header .textWraper .cuentaRegresiva div span {
@@ -110,7 +111,11 @@ body {
 
   .header .textWraper .Nombre {
     font-size: 4.25rem;
-  } 
+  }
+
+  .header .textWraper .cuentaRegresiva {
+    font-size: 3rem;
+  }
 
   .header .textWraper .cuentaRegresiva div {
     font-size: 2.5rem;
