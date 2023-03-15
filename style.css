@@ -20,6 +20,7 @@ body {
   background-image: url("./assets/mariposas.jpg");
   background-size: contain;
   overflow: auto;
+  color: #423c57;
 }
 
 /************************************************************* 
@@ -27,7 +28,6 @@ body {
 *************************************************************/
 /* Header */
 .header {
-  background-color: #00ffff66; /* Quitar al final */
   width: 100%;
   height: 100%;
   display: flex;
@@ -36,7 +36,12 @@ body {
 }
 
 .header .textWraper {
-  background-color: #0000ff66; /* Quitar al final */
+  background: rgba( 220, 206, 240, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
   width: 90%;
   height: 50%;
   display: flex;
@@ -46,7 +51,6 @@ body {
 }
 
 .header .textWraper .Evento {
-  background-color: #ffffff66; /* Quitar al final */
   font-family: 'Great Vibes', cursive;
   font-size: 2.5rem;
 }
@@ -55,7 +59,7 @@ body {
 .header .textWraper .Evento::after {
   display: inline-block;
   content: "";
-  background-color: #fff;
+  background-color: #423c57;
   height: 2.5px;
   width: 1.5rem;
   vertical-align: middle;
@@ -63,17 +67,11 @@ body {
 }
 
 .header .textWraper .Nombre {
-  /* font-family: 'Mulish', sans-serif; */
-  /* font-family: 'Libre Baskerville', serif; */
   font-family: 'Fredericka the Great', cursive;
-  /* font-weight: bold; */
   font-size: 4rem;
 }
 
 .header .textWraper .cuentaRegresiva {
-  background-color: slateblue;/* quitar al final */
-  /* font-family: 'Mulish', sans-serif; */
-  /* font-family: 'Libre Baskerville', serif; */
   font-family: 'Fredericka the Great', cursive;
   font-size: 2.25rem;
   width: 100%;
@@ -82,7 +80,6 @@ body {
 }
 
 .header .textWraper .cuentaRegresiva div {
-  background-color: gray;/* Quitar al final */
   text-align: center;
   font-size: 1.25rem;
 }
@@ -93,7 +90,6 @@ body {
 
 /* Main */
 .main {
-  background-color: #0dd14e66; /* Quitar al final */
   width: 100%;
 }
 
@@ -108,7 +104,6 @@ body {
 }
 
 .main .frase .frase__imagen {
-  background-color: slateblue;  /* Quitar al final */
   display: block;
   width: 90%;
   height: auto;
@@ -120,19 +115,17 @@ body {
   height: 7.5rem;
   padding: 0.25rem 1rem;
   font-family: 'Mulish', sans-serif;
-  /* font-family: 'Libre Baskerville', serif; */
   font-size: 1.15rem;
   text-align: justify;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 3px );
   -webkit-backdrop-filter: blur( 3px );
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /* Sección del lugar y fecha */
 .main .fechaLugar {
-  background-color: #f4e67766; /* Quitar al final */
   width: 100%;
   padding: 1rem 0;
 }
@@ -143,9 +136,14 @@ body {
 }
 
 .main .fechaLugar .cards .card {
-  background-color: #fff;
+  background: rgba( 220, 206, 240, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
   width: 90%;
-  height: 35rem;
+  height: 36rem;
   margin: 1rem auto;
   border-radius: 10px;
 }
@@ -162,7 +160,7 @@ body {
   height: 9rem;
   margin: 0 auto 1rem;
   object-fit: fill;
-  border: 1px solid #000;
+  border: 1px solid #423c57;
   border-radius: 10px;
 }
 
@@ -185,13 +183,12 @@ body {
   width: 90%;
   height: 11rem;
   margin: 0 auto;
-  border: 1px solid #000;
+  border: 1px solid #423c57;
   border-radius: 10px;
 }
 
 /* Sección de fotos */
 .main .fotos {
-  background-color: seagreen; /* Quitar al final */
   width: 100%;
   padding-bottom: 2rem;
 }
@@ -208,7 +205,6 @@ body {
   height: 20rem;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid #fff;
   position: relative;
 }
 
@@ -277,7 +273,12 @@ body {
 }
 
 .main .confirmar form {
-  background-color: #fff;
+  background: rgba( 220, 206, 240, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 2px solid rgba( 255, 255, 255, 0.18 );
   width: 90%;
   margin: 0 auto;
   padding-top: 0.5rem;
@@ -285,20 +286,19 @@ body {
 }
 
 .main .confirmar form label {
-  background-color: rebeccapurple;/* Quitar al final */
   display: block;
   width: 90%;
   margin: 1rem auto;
 }
 
 .main .confirmar form p {
-  background-color: #00000066;
   display: inline-block;
   width: 50%;
 }
 
 .main .confirmar form input,
 .main .confirmar form textarea {
+  background-color: transparent;
   display: block;
   width: 90%;
   margin: 0 auto;
@@ -307,12 +307,16 @@ body {
   border: 0;
   border-bottom: 2px;
   border-style: solid;
-  border-color: #000;
+  border-color: #423c57;
 }
 
 .main .confirmar form textarea {
   height: 10rem;
   resize: none;
+}
+
+::placeholder {
+  color: #423c57;
 }
 
 /************************************************************* 
