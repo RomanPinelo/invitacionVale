@@ -210,7 +210,7 @@ body {
 
 .main .fotos .slider {
   display: flex;
-  width: 400%; /* Depende del número de imágenes x * 100% */
+  width: 600%; /* Depende del número de imágenes x * 100% */
   height: 100%;
   margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
 }
