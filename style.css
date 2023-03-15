@@ -130,6 +130,133 @@ body {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+/* Sección del lugar y fecha */
+.main .fechaLugar {
+  background-color: #f4e67766; /* Quitar al final */
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.main .fechaLugar h1 {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.main .fechaLugar .cards .card {
+  background-color: #fff;
+  width: 90%;
+  height: 35rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.main .fechaLugar .cards .card h2 {
+  text-align: center;
+  margin: 1rem 0;
+  padding-top: 1rem;
+}
+
+.main .fechaLugar .cards .card img {
+  display: block;
+  width: 90%;
+  height: 9rem;
+  margin: 0 auto 1rem;
+  object-fit: fill;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.main .fechaLugar .cards .card p {
+  width: 90%;
+  margin: 0 auto 0.75rem;
+}
+
+.main .fechaLugar .cards .card .nombreLugar {
+  text-align: center;
+  font-weight: bold;
+}
+
+.main .fechaLugar .cards .card p span {
+  font-weight: bold;
+}
+
+.main .fechaLugar .cards .card iframe {
+  display: block;
+  width: 90%;
+  height: 11rem;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+/* Sección de fotos */
+.main .fotos {
+  background-color: seagreen; /* Quitar al final */
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.main .fotos h2 {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}
+
+.main .fotos .container-slider {
+  width: 90%;
+  height: 20rem;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.main .fotos .slider {
+  display: flex;
+  width: 400%; /* Depende del número de imágenes x * 100% */
+  height: 100%;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.main .fotos .slider__section {
+  width: 100%;
+}
+
+.main .fotos .slider__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main .fotos .slider__btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 35px;
+  font-weight: bold;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main .fotos .slider__btn:hover {
+  background-color: #fff;
+}
+
+.main .fotos .slider__btn--left {
+  left: 10px;
+}
+
+.main .fotos .slider__btn--right {
+  right: 10px;
+}
+
 /************************************************************* 
   Tablet SCREEN
 *************************************************************/
@@ -182,5 +309,40 @@ body {
     width: 45%;
     height: 9rem;
     font-size: 1.75rem;
+  }
+
+  /* Sección del lugar y fecha */
+  .main .fechaLugar .cards {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main .fechaLugar .cards .card {
+    width: 35%;
+    height: 37.5rem;
+  }
+
+  .main .fechaLugar .cards .card p {
+    width: 80%;
+  }
+
+  .main .fechaLugar .cards .card img {
+    width: 75%;
+    height: 11rem;
+    object-fit: fill;
+  }
+  
+  .main .fechaLugar .cards .card iframe {
+    width: 80%;
+    height: 11rem;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+
+  /* Sección de fotos */
+  .main .fotos .container-slider {
+    width: 50%;
+    height: 30rem;
   }
 }
