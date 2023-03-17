@@ -337,6 +337,40 @@ body {
   color: #423c57;
 }
 
+/* Sección contacto */
+.main .contacto h2 {
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
+}
+
+.main .contacto .contactos__Wrapper {
+  width: 90%;
+  margin: 1rem auto;
+  padding-bottom: 1rem;
+}
+
+.main .contacto .contactos__Wrapper a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #423c57;
+  margin: 1rem 0;
+  text-decoration: none;
+}
+
+.main .contacto .contactos__Wrapper a i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.main .contacto .contactos__Wrapper a .llamada {
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+
 /************************************************************* 
   Tablet SCREEN
 *************************************************************/
@@ -433,5 +467,16 @@ body {
 
   .main .confirmar form {
     width: 30%;
+  }
+
+  /* Sección Contacto */
+  .main .contacto .contactos__Wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main .contacto .contactos__Wrapper a {
+    width: auto;
+    font-size: 1.25rem;
   }
 }
