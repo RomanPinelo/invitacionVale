@@ -40,7 +40,7 @@ calcularTiempoRestante1();
 var typed1 = new Typed('#typedFirstMessage', {
   stringsElement: '#textStrings1', 
   typeSpeed: 90,
-  startDelay: 300,
+  startDelay: 5000,
   backSpeed: 75,
   smartBackspace: false,
   shuffle: false,
