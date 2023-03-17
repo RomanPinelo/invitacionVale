@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Mis XV años | Valeria</title>
   </head>
 
@@ -110,14 +110,14 @@
 
         <p>¡Muchas gracias!</p>
 
-        <form action="" method="post">
+        <form action="./formulario.php" method="post">
 
           <label for="nombre">Nombre:</label>
           <input type="text" name="nombre" id="nombre">
 
           <label for="asistir">Confirmo que:</label>
-          <p><input checked type="radio" name="asistir" id="asistir"> Asistiré</p><!--
-          --><p><input type="radio" name="asistir" id="noAsistir"> No asistiré</p>
+          <p><input checked type="radio" name="asistir" value="si"> Asistiré</p><!--
+          --><p><input type="radio" name="asistir" value="no"> No asistiré</p>
 
           <label for="mensaje">Mensaje:</label>
           <textarea name="mensaje" id="mensaje" placeholder="No olvides dejar un bonito mensaje"></textarea>
