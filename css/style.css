@@ -345,6 +345,12 @@ body {
   padding-top: 1rem;
 }
 
+.main .contacto p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
 .main .contacto .contactos__Wrapper {
   width: 90%;
   margin: 1rem auto;
