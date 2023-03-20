@@ -1,7 +1,7 @@
 <?php 
 
   // Se establece la dirección de a quien va dirigido el mensaje y asunto del correo.
-  $destinatario = "prof.roman.pinelo@gmail.com";
+  $destinatario = "valeria.espinosa.medrano2008@gmail.com";
 
   // Variables del formulario
   $nombre = $_POST['nombre'];
